@@ -36,3 +36,7 @@
         humano: true,
     }; // e este é um Objetos.
 
+# Operações Matemáticas
+var x = 10, y = 5; // todas duas variavel são validas
+
+
