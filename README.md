@@ -1,16 +1,15 @@
 # Curso gratuito JavaScrip da Rocketseat
 
-*** Introdução Java Script ***
+# Introdução Java Script
 
-`Introdução`
 
-  [X] O que é o JavaScript?
+- [x] O que é o JavaScript?
 - É uma linguagem que permite agente execultar script, interpretalo, apartir  do cliente da nossa aplicação.
 
-  [X] Onde é aplicado?
+  [x] Onde é aplicado?
 - em todos os sites aplicados na web,
 
-  [X] O que vai ver no curso!
+  [x] O que vai ver no curso!
 - Variáveis
 - Funções
 - Condicionais
@@ -29,11 +28,11 @@
 - var `peso` = 80.5; // Float
 - var `humano`= true; // Boolean
 
-- var `alunos` = ['Diego', 'Gabriel', 'Lucas'], // Vetor
+- var `alunos` = ['Diego', 'Gabriel', 'Lucas']; // Vetor
 - var `aluno` = {
         nome: 'Diego',
         idade: 23,
         peso: 80.5,
         humano: true,
-    }; // e este é um grupo de Obgit jetos
+    }; // e este é um Objetos.
 
