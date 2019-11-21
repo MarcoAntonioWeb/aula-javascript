@@ -6,10 +6,10 @@
 - [x] O que é o JavaScript?
 - É uma linguagem que permite agente execultar script, interpretalo, apartir  do cliente da nossa aplicação.
 
-  [x] Onde é aplicado?
-- em todos os sites aplicados na web,
+- [x] Onde é aplicado?
+- em todos os sites, e aplicados na web.
 
-  [x] O que vai ver no curso!
+- [x] O que vai ver no curso!
 - Variáveis
 - Funções
 - Condicionais
