@@ -55,11 +55,11 @@
   var resultado = soma(1, 2)
   console.log(resultado);  
 
-  ### Condicionais
+### Condicionais
 - // Ultilizando if, else
 - function retornaSexo (sexo){
-  // M, F
-  // Masculino, Feminino
+- // M, F
+- // Masculino, Feminino
 
   if(sexo === 'M') {
       return 'Masculino';
@@ -87,5 +87,89 @@
 
   var resultado2 = retornaSexo('M')
   console.log(resultado2);
+
+### Operadore Lógicos
+- // AND, OR NOT
+- // AND é representado por, &&;
+- // OR é representado por ||;
+- // NOT é representado por != !==;
+
+
+- var sexo = 'M', idade = 23;
+
+    if (sexo === 'M' && idade >= 23) {
+        console.log ('OK'); // Este é feito com AND. Que vai retornar, verdadeiro ou falso.
+    }
+
+    if (sexo === 'M' || idade >= 23) {
+        console.log ('OK'); // Este é feito com OR. Que vai retornar, verdadeiro ou falso
+    }
+
+    if (sexo !== 'F') { // É usado um simbolo de negação. Que vai retornar, verdadeiro ou falso.
+        console.log ('OK'); // Este é feito com NOT.
+    }
+
+- // Armazena valores das condisões Variaveis.
+- // Primeira forma de digitar o codigo.
+- var masculino;
+
+    if (sexo === 'M') {
+        masculino = true;
+    } else {
+        masculino = false;
+    }
+    console.log (masculino);// O resultado vai retornar, true ou false.
+
+
+- // Segunda forma de digitar o codigo.
+
+- var masculino = sexo === 'M';
+
+    console.log(masculino);
+
+### Condição Ternária
+- // As condições ternária só é usada quando temos apenas duas verificações dento do "if".
+
+- var sexo = 'M';
+
+var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+
+console.log(retorno)
+
+### Estrutura de Repetição
+- // FOR , WHILE
+
+for (var i = 0; i <= 100; i++) {
+    console.log(i);
+}
+
+- // O WHILE é usado quando a gente não sabe o tamanho das interações que vão ser usados.
+- var j = 219345872;
+
+while (j > 50 ) {
+    console.log (j);
+
+        j /= 5;
+}
+
+### Intervalo Timeout
+- function exibeAlgo () {
+    console.log('Hello World!');
+}
+
+    setInterval(exibeAlgo, 1000);// ele vai ser execultado varias vezes... "infinito".
+
+    setTimeout(exibeAlgo, 1000);// ele só vai ser execultado ápos do tempo for determinado. 
+
+
+# Manipulação de DOM
+
+- [x] O que iremos aprender com a Manipulação de DOM?
+
+- Trabalhando com DOM
+- Lidando com elementos
+- Alterando estilos
+
+
 
 
