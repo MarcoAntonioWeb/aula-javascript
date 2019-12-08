@@ -172,9 +172,9 @@ while (j > 50 ) {
 - Alterando estilos
 
 ### Evento Inline
-- <div id="app">
+- div id="app"
         <button onclick="mostraAlerta()">Me pressione</button>
-    </div>
+  div
 
     <script>
         function mostraAlerta() {
@@ -183,10 +183,10 @@ while (j > 50 ) {
     </script>
 
 ### Trabalhando com DOM 
-- <div id="app">
+- div id="app"
         <input type="text" name="nome" id="nome">
         <button class="botao">Adicionar</button>
-    </div>
+    div
 
     <script>
         var inputElement = document.querySelector('input[name=nome]')
