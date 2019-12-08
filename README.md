@@ -11,18 +11,18 @@
 
 - [x] O que vai ver no curso!
 
-- Configuração de ambientes
-- Variáveis e dados
-- Operações matemáticas
-- Funções
-- Condicionais
-- Operadores lógicos
-- Condição ternária
-- Estrutura de repetição
-- Intervalo e timeout
-- Manipulação de DOM
-- Requisições assícronas
-- Construindo um app do zero 
+1 Configuração de ambientes
+2 Variáveis e dados
+3 Operações matemáticas
+4 Funções
+5 Condicionais
+6 Operadores lógicos
+7 Condição ternária
+8 Estrutura de repetição
+9 Intervalo e timeout
+10 Manipulação de DOM
+11 Requisições assícronas
+12 Construindo um app do zero 
 
 ### Configuração do Ambiente
 - Vai ser usado um editor de texto ( Visual Studio Code).
@@ -166,10 +166,35 @@ while (j > 50 ) {
 
 - [x] O que iremos aprender com a Manipulação de DOM?
 
+- Evento inline 
 - Trabalhando com DOM
 - Lidando com elementos
 - Alterando estilos
 
+### Evento Inline
+- <div id="app">
+        <button onclick="mostraAlerta()">Me pressione</button>
+    </div>
 
+    <script>
+        function mostraAlerta() {
+            alert ('Botão foi clicado');
+        }
+    </script>
 
+### Trabalhando com DOM 
+- <div id="app">
+        <input type="text" name="nome" id="nome">
+        <button class="botao">Adicionar</button>
+    </div>
 
+    <script>
+        var inputElement = document.querySelector('input[name=nome]')
+        var btnElement = document.querySelector('button.botao')// É o mais utilizado hoje.
+
+         btnElement.onclick = function() {
+            var text = inputElement.value;
+
+            alert(text)
+        }  
+    </script>
