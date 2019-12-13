@@ -186,7 +186,7 @@ while (j > 50 ) {
 - div id="app"
         <input type="text" name="nome" id="nome">
         <button class="botao">Adicionar</button>
-    div
+    /div
 
     <script>
         var inputElement = document.querySelector('input[name=nome]')
@@ -197,4 +197,25 @@ while (j > 50 ) {
 
             alert(text)
         }  
+    </script>
+
+    ### Lidando com Elementos
+    div id="app" 
+        <input id="nome">
+    /div
+
+    <script>
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', 'http://rocketseat.com.br');
+        linkElement.setAttribute('target' , 'blank')
+
+        var textElement = document.createTextNode('Acessar site da Rocketseat');
+        linkElement.appendChild(textElement);
+
+        var containerElement = document.querySelector('#app');
+        containerElement.appendChild(linkElement); // o comando fica todo aqui.
+
+        var inputElement = document.querySelector('#nome');
+        containerElement.removeChild(inputElement); // ele remove a imagem no navegador.
+    
     </script>
